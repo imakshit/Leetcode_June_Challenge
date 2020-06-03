@@ -18,3 +18,11 @@
 
 [solution](https://github.com/imakshit/Leetcode_June_Challenge/blob/master/2june/code.txt)
 
+
+
+### 3 June
+
+[problem](https://github.com/imakshit/Leetcode_June_Challenge/blob/master/3june/problem.txt)
+
+[solution](https://github.com/imakshit/Leetcode_June_Challenge/blob/master/3june/code.txt)
+

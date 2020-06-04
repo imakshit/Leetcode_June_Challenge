@@ -5,14 +5,14 @@
 30 days of code, each day a new problem and a coded solution!
 
 
-### 1 June
+### 1 June "INVERT BINARY TREE"
 
 [problem](https://github.com/imakshit/Leetcode_June_Challenge/blob/master/1June/problem.txt)
 
 [solution](https://github.com/imakshit/Leetcode_June_Challenge/blob/master/1June/code.txt)
 
 
-### 2 June
+### 2 June "DELETE NODE IN A LINKEDLIST"
 
 [problem](https://github.com/imakshit/Leetcode_June_Challenge/blob/master/2june/problem.txt)
 
@@ -20,7 +20,7 @@
 
 
 
-### 3 June
+### 3 June "TWO CITY SCHEDULING"
 
 [problem](https://github.com/imakshit/Leetcode_June_Challenge/blob/master/3june/problem.txt)
 
@@ -28,7 +28,7 @@
 
 
 
-### 4 June
+### 4 June "REVERSE STRING"
 
 [problem](https://github.com/imakshit/Leetcode_June_Challenge/blob/master/4june/problem.txt)
 

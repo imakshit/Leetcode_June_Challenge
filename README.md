@@ -34,3 +34,11 @@
 
 [solution](https://github.com/imakshit/Leetcode_June_Challenge/blob/master/4june/code.txt)
 
+
+
+### 5 June "REVERSE STRING"
+
+[problem](https://github.com/imakshit/Leetcode_June_Challenge/blob/master/5june/problem.txt)
+
+[solution](https://github.com/imakshit/Leetcode_June_Challenge/blob/master/5june/code.txt)
+

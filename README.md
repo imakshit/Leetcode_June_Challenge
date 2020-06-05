@@ -36,7 +36,7 @@
 
 
 
-### 5 June "REVERSE STRING"
+### 5 June "Random Pick With Weight"
 
 [problem](https://github.com/imakshit/Leetcode_June_Challenge/blob/master/5june/problem.txt)
 

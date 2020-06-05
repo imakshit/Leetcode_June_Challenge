@@ -1,0 +1,28 @@
+class Solution {
+    
+    int[] arra;
+    Random rand = new Random();
+
+    public Solution(int[] w) {
+        int[] temp = new int[w.length];
+        temp[0] = w[0];
+        for(int i = 1; i < w.length; i++){
+            temp[i] = w[i] + temp[i-1];
+        }
+        arra = temp;
+    }
+    
+    public int pickIndex() {
+        int random = rand.nextInt(arra[arra.length - 1]) + 1;
+        int low = 0;
+        int high =  arra.length - 1;
+        while(low < high){
+            int mid = low + (high - low)/2;
+            if(arra[mid] < random)
+                low = mid + 1;
+            else
+                high = mid;
+        }
+        return low;
+    }
+}

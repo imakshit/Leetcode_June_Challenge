@@ -42,3 +42,11 @@
 
 [solution](https://github.com/imakshit/Leetcode_June_Challenge/blob/master/5june/code.txt)
 
+
+
+### 5 June "Queue Reconstruction By Height"
+
+[problem](https://github.com/imakshit/Leetcode_June_Challenge/blob/master/6june/problem.txt)
+
+[solution](https://github.com/imakshit/Leetcode_June_Challenge/blob/master/6june/code.txt)
+

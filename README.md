@@ -50,3 +50,11 @@
 
 [solution](https://github.com/imakshit/Leetcode_June_Challenge/blob/master/6june/code.txt)
 
+
+
+### 7 June "Coin Change 2"
+
+[problem](https://github.com/imakshit/Leetcode_June_Challenge/blob/master/7june/problem.txt)
+
+[solution](https://github.com/imakshit/Leetcode_June_Challenge/blob/master/7june/code.txt)
+

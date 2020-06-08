@@ -58,3 +58,11 @@
 
 [solution](https://github.com/imakshit/Leetcode_June_Challenge/blob/master/7june/code.txt)
 
+
+
+### 8 June "Power of Two"
+
+[problem](https://github.com/imakshit/Leetcode_June_Challenge/blob/master/8june/problem.txt)
+
+[solution](https://github.com/imakshit/Leetcode_June_Challenge/blob/master/8june/code.txt)
+

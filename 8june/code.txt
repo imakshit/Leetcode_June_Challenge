@@ -1,0 +1,46 @@
+//Method1
+//Simple if else conditions
+
+class Solution {
+    public boolean isPowerOfTwo(int n) {
+        if(n==0){
+            return false;
+        }
+       while(n!=1 ){
+           if(n%2!=0){
+               return false;
+           }
+           n = n/2;
+       }
+        return true;
+    }
+}
+
+
+
+//Method 2
+//using recursion
+
+class Solution {
+    public boolean isPowerOfTwo(int num) {
+        if(num==1){
+            return true;
+        }
+        if(num%2==1 || num==0){
+            return false;
+        }
+        return isPowerOfTwo(num/2);
+    }
+}
+
+
+
+//Method 3
+//using bit manipulation
+
+
+class Solution {
+    public boolean isPowerOfTwo(int num) {
+        return num > 0 && (num & (num - 1)) == 0;
+    }
+}

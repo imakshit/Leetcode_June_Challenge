@@ -66,3 +66,11 @@
 
 [solution](https://github.com/imakshit/Leetcode_June_Challenge/blob/master/8june/code.txt)
 
+
+
+### 9 June "Is Subsequence"
+
+[problem](https://github.com/imakshit/Leetcode_June_Challenge/blob/master/9june/problem.txt)
+
+[solution](https://github.com/imakshit/Leetcode_June_Challenge/blob/master/9june/code.txt)
+

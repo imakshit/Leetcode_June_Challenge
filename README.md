@@ -74,3 +74,12 @@
 
 [solution](https://github.com/imakshit/Leetcode_June_Challenge/blob/master/9june/code.txt)
 
+
+
+### 10 June "Search Insert Position"
+
+[problem](https://github.com/imakshit/Leetcode_June_Challenge/blob/master/10june/problem.txt)
+
+[solution](https://github.com/imakshit/Leetcode_June_Challenge/blob/master/10june/code.txt)
+
+

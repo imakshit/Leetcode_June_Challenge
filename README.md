@@ -91,3 +91,11 @@
 [solution](https://github.com/imakshit/Leetcode_June_Challenge/blob/master/11june/code.txt)
 
 
+
+### 12 June "Insert Delete GetRandom O(1)"
+
+[problem](https://github.com/imakshit/Leetcode_June_Challenge/blob/master/12june/problem.txt)
+
+[solution](https://github.com/imakshit/Leetcode_June_Challenge/blob/master/12june/code.txt)
+
+

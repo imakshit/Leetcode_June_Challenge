@@ -107,3 +107,21 @@
 [solution](https://github.com/imakshit/Leetcode_June_Challenge/blob/master/13june/code.txt)
 
 
+
+### 14 June "Cheapest Flight Within K Stops"
+
+[problem](https://github.com/imakshit/Leetcode_June_Challenge/blob/master/14june/problem.txt)
+
+[solution](https://github.com/imakshit/Leetcode_June_Challenge/blob/master/14june/code.txt)
+
+
+
+### 15 June "Search in a Binary Search Tree"
+
+[problem](https://github.com/imakshit/Leetcode_June_Challenge/blob/master/15june/problem.txt)
+
+[solution](https://github.com/imakshit/Leetcode_June_Challenge/blob/master/15june/code.txt)
+
+
+
+

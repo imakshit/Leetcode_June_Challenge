@@ -1,0 +1,54 @@
+class Solution {
+   class Node{
+    int dest, wt;
+    Node(int dest, int wt){
+	this.dest = dest;
+	this.wt = wt;
+    }
+}
+	
+class Pair{
+    int vertex;
+    int keyVal;
+    int stopNo;
+		
+    Pair(int i, int key, int stop){
+	vertex = i;
+	keyVal = key;
+	stopNo = stop;
+   }
+}
+	
+public int findCheapestPrice(int n, int[][] flights, int src, int dst, int K) {
+    HashMap<Integer, ArrayList<Node>> graph = new HashMap<>();
+
+    for(int i = 0; i < n; i++) {
+   	graph.put(i, new ArrayList<Node>());
+    }
+    for(int i = 0; i < flights.length; i++) {        	  
+        graph.get(flights[i][0]).add(new Node(flights[i][1], flights[i][2]));
+    }
+        
+    PriorityQueue<Pair> pq = new PriorityQueue<Pair>(new Comparator<Pair>() {
+
+    public int compare(Pair o1, Pair o2) {
+        return o1.keyVal - o2.keyVal;
+    }
+    });
+    pq.offer(new Pair(src,0,K+1));
+    while(!pq.isEmpty()) {
+      	Pair temp = pq.poll();
+       	int price = temp.keyVal;
+       	int city = temp.vertex;
+        int stops = temp.stopNo;
+       	if(city == dst)
+            return price;
+        if(stops > 0) {
+            for(Node nbr : graph.get(temp.vertex)) {
+            	pq.add(new Pair(nbr.dest, price + nbr.wt, stops - 1));
+            }
+        }		
+    }
+    return -1;
+} 
+}

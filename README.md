@@ -132,4 +132,20 @@
 
 
 
+### 17 June "Surrounded Regions"
+
+[problem](https://github.com/imakshit/Leetcode_June_Challenge/blob/master/17june/problem.txt)
+
+[solution](https://github.com/imakshit/Leetcode_June_Challenge/blob/master/17june/code.txt)
+
+
+
+### 18 June "H Index - II"
+
+[problem](https://github.com/imakshit/Leetcode_June_Challenge/blob/master/18june/problem.txt)
+
+[solution](https://github.com/imakshit/Leetcode_June_Challenge/blob/master/18june/code.txt)
+
+
+
 

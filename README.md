@@ -148,4 +148,20 @@
 
 
 
+### 19 June "Longest Duplicate Substring"
+
+[problem](https://github.com/imakshit/Leetcode_June_Challenge/blob/master/19june/problem.txt)
+
+[solution](https://github.com/imakshit/Leetcode_June_Challenge/blob/master/19june/code.txt)
+
+
+
+### 20 June "Permutation Sequence"
+
+[problem](https://github.com/imakshit/Leetcode_June_Challenge/blob/master/20june/problem.txt)
+
+[solution](https://github.com/imakshit/Leetcode_June_Challenge/blob/master/20june/code.txt)
+
+
+
 

@@ -1,0 +1,29 @@
+class Solution {
+    public String getPermutation(int n, int k) {
+        StringBuilder sb = new StringBuilder();
+        ArrayList<Integer> mylist = new ArrayList<Integer>();
+        int[] factorial = new int[n+1];
+        
+        int sum = 1;
+        factorial[0] = 1;
+        for(int i=1; i<=n; i++){
+        sum *= i;
+        factorial[i] = sum;
+       }
+        
+        
+        for(int i = 1 ; i<=n ; i++){
+            mylist.add(i);
+        }
+        
+        k-=1;
+       for(int i = 1; i <= n; i++){
+        int index = k/factorial[n-i];
+        sb.append(String.valueOf(mylist.get(index)));
+        mylist.remove(index);
+        k-=index*factorial[n-i];
+    }
+        return sb.toString();
+        
+    }
+}

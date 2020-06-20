@@ -1,0 +1,52 @@
+class Solution {
+    public String longestDupSubstring(String S) {
+        int left = 0;
+        int right = S.length() - 1;
+        
+        while (left < right) {
+            int m = left + ((right - left + 1) >> 1);
+            
+            if (isDuplicatePresent(S, m)) {
+                left = m;
+            } else {
+                right = m - 1;
+            }
+        }
+        
+        return findDuplicate(S, left);
+    }
+    
+    private boolean isDuplicatePresent(String S, int length) {
+        if (length == 0)
+            return true;
+        
+        return findDuplicate(S, length) != null;
+    }
+    
+    private String findDuplicate(String S, int length) {        
+        long hash = 0;
+        long primeno = 29;
+        long power = 1;
+        for (int i = 0; i < length; i++) {
+            power *= primeno;
+            hash = hash * primeno + (S.charAt(i) - 'a');
+        }
+        
+        Map<Long, Integer> mymap = new HashMap<>();
+        mymap.put(hash, 0);
+        
+        for (int i = length; i < S.length(); i++) {
+            hash = hash * primeno + (S.charAt(i) - 'a');
+            hash -= power * (S.charAt(i - length) - 'a');
+            
+            if (mymap.containsKey(hash)) {
+                int index = mymap.get(hash);
+                return S.substring(index, index + length);
+            }
+            
+            mymap.put(hash, i - length + 1);
+        }
+        
+        return null;
+    }
+}

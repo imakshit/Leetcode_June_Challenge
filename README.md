@@ -180,4 +180,12 @@
 
 
 
+### 23 June "Count Complete Tree Nodes"
+
+[problem](https://github.com/imakshit/Leetcode_June_Challenge/blob/master/23june/problem.txt)
+
+[solution](https://github.com/imakshit/Leetcode_June_Challenge/blob/master/23june/code.txt)
+
+
+
 

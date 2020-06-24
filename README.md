@@ -188,4 +188,12 @@
 
 
 
+### 24 June "Unique Binary Search Trees"
+
+[problem](https://github.com/imakshit/Leetcode_June_Challenge/blob/master/24june/problem.txt)
+
+[solution](https://github.com/imakshit/Leetcode_June_Challenge/blob/master/24june/code.txt)
+
+
+
 

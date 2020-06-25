@@ -196,4 +196,12 @@
 
 
 
+### 25 June "Find the Duplicate Number"
+
+[problem](https://github.com/imakshit/Leetcode_June_Challenge/blob/master/25june/problem.txt)
+
+[solution](https://github.com/imakshit/Leetcode_June_Challenge/blob/master/25june/code.txt)
+
+
+
 

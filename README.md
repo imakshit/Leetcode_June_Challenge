@@ -212,4 +212,12 @@
 
 
 
+### 27 June "Perfect Squares"
+
+[problem](https://github.com/imakshit/Leetcode_June_Challenge/blob/master/27june/problem.txt)
+
+[solution](https://github.com/imakshit/Leetcode_June_Challenge/blob/master/27june/code.txt)
+
+
+
 

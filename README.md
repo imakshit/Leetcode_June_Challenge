@@ -220,4 +220,20 @@
 
 
 
+### 28 June "Reconstruct Itenerary"
+
+[problem](https://github.com/imakshit/Leetcode_June_Challenge/blob/master/28june/problem.txt)
+
+[solution](https://github.com/imakshit/Leetcode_June_Challenge/blob/master/28june/code.txt)
+
+
+
+### 29 June "Unique Paths"
+
+[problem](https://github.com/imakshit/Leetcode_June_Challenge/blob/master/29june/problem.txt)
+
+[solution](https://github.com/imakshit/Leetcode_June_Challenge/blob/master/29june/code.txt)
+
+
+
 

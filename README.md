@@ -236,4 +236,12 @@
 
 
 
+### 30 June "Word Search II"
+
+[problem](https://github.com/imakshit/Leetcode_June_Challenge/blob/master/30june/problem.txt)
+
+[solution](https://github.com/imakshit/Leetcode_June_Challenge/blob/master/30june/code.txt)
+
+
+
 
